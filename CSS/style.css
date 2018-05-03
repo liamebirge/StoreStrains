@@ -1,3 +1,29 @@
 header{
 	text-align: center;
 }
+table#indexList{
+	text-align: center;
+	padding:10px;
+}
+#indexList td{
+	margin:5px;
+	width:200px;
+}
+#indexList button{
+	padding:0px;
+	margin:0px;
+	background: none;
+	border:none;
+	color:grey;
+	width:200px;
+	height:30px;
+}
+#indexList button:hover{
+	background:green;
+	color:white;
+	cursor: pointer;
+}
+section{
+	display:flex;
+	justify-content: center;
+}
